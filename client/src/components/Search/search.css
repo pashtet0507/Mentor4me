@@ -1,0 +1,121 @@
+.searchInput {
+    box-sizing: border-box;
+
+width: 677px;
+height: 58px;
+left: 169px;
+top: 255px;
+
+background: rgba(196, 196, 196, 0.21);
+border: 1px solid #B9B2B2;
+border-radius: 10px 0 0 10px ;
+}
+
+.searchButton {
+width: 114px;
+height: 58px;
+left: 732px;
+top: 255px;
+border: none;
+border-radius:0 10px 10px 0 ;
+
+background: linear-gradient(349.23deg, #BD5BEE 38.81%, #3F6FF7 103.64%, #A160F0 106.8%, #0078FC 106.8%);
+}
+
+.groupSearch {
+    display: flex;
+    flex-direction: row;
+}
+
+.groupsInputsSearch {
+    display: flex;
+    flex-direction: row;
+    margin-top: 51px;
+    margin-left: 50px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.priceInputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.raiting {
+    display: flex;
+    flex-direction: column;
+}
+
+.format {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputSearch {
+    border: 1px solid linear-gradient(180deg, #BD5BEE 0%, #0078FC 100%);
+    border-color: #BD5BEE;
+    max-width: 450px;
+    color: #0078FC;
+    text-align: center;
+    border-radius: 5px ;
+    height: 2rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.line {
+    height: 1px;
+    background: #A160F0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.listColumn {
+    margin-top: 5px;
+}
+
+.format {
+    margin-left: 100px;
+}
+
+.raiting {
+    margin-left: 100px;
+}
+
+.textColumn {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textLabel {
+    color: #8b00fc;
+    font-weight: 500;
+}
+
+.mainTextSearch {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.groupSearch {
+    margin-left: 50px;
+}
+
+input {
+    padding: 0 15px;
+}

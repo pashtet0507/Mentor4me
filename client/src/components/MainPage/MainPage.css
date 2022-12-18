@@ -1,0 +1,189 @@
+.mainPage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headerWrapper {
+    display: flex;
+    max-height: 837.28px;
+}
+.mentorLeft {
+    /* min-width: 60%; */
+    /* z-index: -1; */
+
+    margin-top: 130px;
+}
+
+.imgMentor {
+    z-index: 3;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+}
+
+.contentText {
+    margin-top: 25px;
+    height: 117px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}
+.contentButton {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    height: 72px;
+}
+.buttonLeft {
+    height: 72px;
+    left: 121px;
+    top: 526px;
+    width: 220px;
+    background: linear-gradient(180deg, #BD5BEE 0%, rgba(0, 120, 252, 0.48) 87.92%);
+    border-radius: 10px;
+    margin-right: 7em;
+}
+
+.buttonRight {
+    box-sizing: border-box;
+    height: 72px;
+    left: 393px;
+    top: 526px;
+    width: 220px;
+    background: #BD5BEE;
+    border-radius: 10px;
+}
+
+.buttonLeft:hover, .buttonRight:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: bold;
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #c702f8,rgba(2, 0, 109, 0.521)); /* Радиальный градиент, переход цвета от центра к краям */
+}
+
+.textButton {
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+
+/* ////// second block */
+
+.middleWrapper {
+    /* display: flex; */
+    min-width: 90%;
+    /* width: 1391.24px; */
+    min-height: 660px;
+    left: 78.27px;
+    top: 52px; 
+}
+.numberContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.numberBlock {
+    min-width: 30%;
+}
+
+.titleOne {
+    width: 563px;
+    height: 70px;
+    left: 121px;
+    top: 261px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.titleOne_center {
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.number {
+    width: 209px;
+    height: 377px;
+    left: 157px;
+    top: 900px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 350px;
+    line-height: 411px;
+
+    background: conic-gradient(from 180deg at 50% 68.9%, rgba(189, 91, 238, 0.33) -35.56deg, rgba(0, 120, 252, 0.14) 46.32deg, rgba(189, 91, 238, 0.21) 213.38deg, rgba(189, 91, 238, 0.33) 324.44deg, rgba(0, 120, 252, 0.14) 406.32deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.titleNumber {
+    margin-top: -255px;
+    height: 45px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.numberText{
+    width: 301px;
+    height: 69px;
+    left: 120px;
+    top: 1101px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.btnNumber {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+} 
+
+.buttonStart {
+    cursor: pointer;
+    flex-shrink: 0;
+    border-radius: 10px;
+    width: 11rem;
+    height: 4rem;
+    background: #BD5BEE;
+    border-radius: 10px;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 1.5rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    border:none;
+  }  
+ .buttonStart:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: bold;
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #c702f8,rgba(2, 0, 109, 0.521)); /* Радиальный градиент, переход цвета от центра к краям */
+}  

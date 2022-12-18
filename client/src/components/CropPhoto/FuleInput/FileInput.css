@@ -1,0 +1,26 @@
+.btn {
+    transform: translateY(20px);
+    cursor: pointer;
+     border:none;
+     background: transparent;
+     margin: 0 auto;
+     display: block; 
+
+}
+
+h3,p {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.addPhotoOneClass {
+    margin-top: 50px;
+    color: black;
+    font-size: 18px;
+}
+
+.textPhotoOneClass {
+    margin-top: 50px;
+}
+

@@ -1,0 +1,79 @@
+.blockItem {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid  #673FD7;
+    padding: 30px;
+    border-radius: 5px;
+    max-height: 240px;
+}
+
+.imgBlock {
+    min-width: 5%;
+}
+.imgCard {
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+}
+.reiting {
+    text-align: center;
+    width: 50px;
+    height: 20px;
+}
+.textCard {
+    min-width: 63%;
+    margin-left: 130px;
+    padding-right: 60px;
+    min-width: 57%
+}
+.subtitleCard {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+}
+.jobName {
+    color: #0d0d0d;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.mentorDescr {
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+} 
+.scill {
+    justify-content: flex-start;
+    display: flex;
+}
+/* .scillBlock {
+    margin: 20px 5px 0 0 ;
+    border: 1px solid  #673FD7;
+    border-radius: 3px;
+    padding: 5px;
+} */
+
+.price {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.like {
+    margin-top: 45px;
+}
+
+.likeraspisanie {
+text-align: center;
+margin-top: 20px;
+}
+
+.iconStyle {
+    margin-left: 78px;
+    width: 22px;
+    height: 20px;
+
+}

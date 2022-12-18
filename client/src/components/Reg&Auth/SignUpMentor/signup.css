@@ -1,0 +1,111 @@
+.inputAuth {
+    box-sizing: border-box;
+
+width: 556px;
+height: 35px;
+
+background: rgba(196, 196, 196, 0.28);
+border: 1px solid #B9B2B2;
+margin-top: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inputAuthCheckbox {
+    margin-right: 15px;
+}
+
+.textOnInput {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.twoInputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputAuthTwo {
+    box-sizing: border-box;
+
+    width: 273px;
+    height: 35px;
+    margin-right: 10px;
+    
+    background: rgba(196, 196, 196, 0.28);
+    border: 1px solid #B9B2B2;
+    margin-top: 20px;
+}
+
+.btnNext {
+
+    background-image: linear-gradient(92.88deg, #1f2129 9.16%, #505058 43.89%, #4e4e50 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.5rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btnNext:hover {
+    cursor: pointer;
+    box-shadow: rgba(98, 98, 102, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+.textInBtn {
+    width: 64px;
+height: 27px;
+margin-top: 8px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.nextButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pReg {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: auto;
+}
+
+.hiddenText {
+    max-width: 273px;
+    color: red;
+    font-weight: 400;
+}
+
+.hiddenText1 {
+    max-width: 556px;
+    color: red;
+    font-weight: 400;
+}

@@ -1,0 +1,69 @@
+
+.titleReview{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: start;
+}
+.blockReview {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 10px;
+    /* border: none; */
+    border: 1px dotted  #673FD7;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 150px
+}
+.imgReview {
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.textReview {
+    margin-left: 62px;
+    padding-right: 60px;
+    width: 45%;
+}
+.nameStudent {
+    color: #0d0d0d;
+    font-size: 20px;
+    font-weight: 700;
+}
+.dataReview {
+    color: #0d0d0d;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.reviewDescr {
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+} 
+.scill {
+    justify-content: flex-start;
+    display: flex;
+}
+/* .scillBlock {
+    margin: 20px 5px 0 0 ;
+    border: 1px solid  #673FD7;
+    border-radius: 3px;
+    padding: 5px;
+} */
+.reting {
+    margin-top: -20px;
+    margin-left: 30px;
+}
+
+.iconStar {
+    width: 22px;
+    height: 20px;
+}
+
+
+/* https://cdn-icons-png.flaticon.com/512/4442/4442255.png */

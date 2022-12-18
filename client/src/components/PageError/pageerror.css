@@ -1,0 +1,24 @@
+.textError {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.linkBack {
+    margin-top: 70px;
+    border: 1px solid black;
+    width: 270px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: conic-gradient(from 180deg at 50% 50%, #BD5BEE 0deg, rgba(0, 120, 252, 0.48) 316.51deg, #BD5BEE 360deg);
+    border-radius: 4px;
+    height: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

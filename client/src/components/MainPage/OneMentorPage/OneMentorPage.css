@@ -1,0 +1,60 @@
+.blockAllReview {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    /* margin-left: 70px; */
+}
+
+
+.titleReview {
+    margin-top: 30px ;
+    margin-left: 70px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: start;
+    color: #000000;
+    position: relative;
+    left: 150px
+}
+
+hr {
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    height: 0px;
+    border: 1px solid #0078FC;
+    box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.1);
+}
+
+.subReview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnReview {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    display: block;
+    position: relative;
+    left: 150px
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 40px;
+}
+
+.btnText {
+    color: #FFFFFF;
+  }
+
+.inputBtnBlock {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,63 @@
+.aboutBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutText {
+    max-width: 30em;
+    font-size: 20px;
+    margin-top: 1rem;
+    line-height: 1.3;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    margin-top: 70px;
+}
+
+.buttonFindMent {
+width: 11rem;
+height: 4rem;
+background: linear-gradient(180deg, #BD5BEE 0%, rgba(0, 120, 252, 0.48) 87.92%);
+border-radius: 10px;
+margin-right: 7em;
+border: none;
+font-size: 16px;
+font-weight: 500;
+}
+
+.buttonSetMent {
+width: 220px;
+background: #BD5BEE;
+border-radius: 10px;
+border: none;
+width: 11rem;
+height: 4rem;
+
+}
+
+.textButton {
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+}
+
+.buttonFindMent:hover, .buttonSetMent:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: bold;
+    background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #c702f8,rgba(2, 0, 109, 0.521)); /* Радиальный градиент, переход цвета от центра к краям */
+}

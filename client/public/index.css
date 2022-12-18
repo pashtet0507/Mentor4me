@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html,
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.avatarProfile {
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(195, 32, 245);
+  margin-bottom: 10px;
+}

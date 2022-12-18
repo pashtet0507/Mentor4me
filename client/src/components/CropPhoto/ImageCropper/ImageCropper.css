@@ -1,0 +1,56 @@
+.btn1 {
+    height: 45px;
+    left: 121px;
+    width: 150px;
+    /* background: linear-gradient(180deg, #BD5BEE 0%, rgba(0, 120, 252, 0.48) 87.92%); */
+    background: rgb(130, 106, 251);
+    border-radius: 9px;
+    margin-left: 1em;
+ 
+    /* text-align: center; */
+    /* font-size: 16px;
+    font-weight: 300; */
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(236, 227, 227);
+    border: none;
+}
+
+.btn2 {
+    box-sizing: border-box;
+    height: 45px;
+    /* left: 393px; */
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(236, 227, 227);
+    /* position: absolute; */
+    background: transparent;
+    margin-left: 7em;
+   
+}
+
+.btn1, .btn2:hover {
+    cursor: pointer;
+}
+
+.oneClassButtonsCroppPhoto {
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 220px;
+}
+
+/* .buttons{
+    position: absolute;
+    right: -5px;
+    top: 60%;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-right: -9em;
+    
+} */
